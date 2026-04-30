@@ -13,11 +13,11 @@ de la Métropole du Grand Paris ayant participé au programme d\'accompagnement 
 
 L\'application propose trois onglets :
 
-- **Accueil** — présentation du projet, chiffres clés (répartition par année de certification,
+- **Accueil** : présentation du projet, chiffres clés (répartition par année de certification,
   équipements par type de chambre)
-- **Carte** — carte interactive des hébergements avec filtres par localisation et détail
+- **Carte** : carte interactive des hébergements avec filtres par localisation et détail
   complet de chaque établissement au clic
-- **Tableau** — tableau paginé et filtrable par localisation et type de chambre adaptée
+- **Tableau** : tableau paginé et filtrable par localisation et type de chambre adaptée
 
 ---
 
@@ -187,9 +187,9 @@ Police : **Montserrat** (Google Fonts)
 - Réinitialisation en un clic
 
 ### Graphiques (onglet Accueil)
-- **Graphique 1** — Pie chart de la répartition des certifications par année
+- **Graphique 1** : Pie chart de la répartition des certifications par année
   (2022, 2023, 2024) avec popup mensuel au clic
-- **Graphique 2** — Bar chart empilé du % d\'hébergements par type de chambre adaptée,
+- **Graphique 2** : Bar chart empilé du % d\'hébergements par type de chambre adaptée,
   avec vue Paris / Hors Paris et commentaire réactif au clic
 
 ---
@@ -201,7 +201,7 @@ Police : **Montserrat** (Google Fonts)
 | `etablissement`            | Nom de l\'établissement                   |
 | `adresse`                  | Adresse complète                         |
 | `ville`                    | Ville                                    |
-| `code_postal`              | Code postal (nettoyé, sans espaces)      |
+| `code_postal`              | Code postal                              |
 | `latitude` / `longitude`   | Coordonnées géographiques                |
 | `date`                     | Date de certification                    |
 | `lien_guide`               | URL du guide d\'accessibilité             |
