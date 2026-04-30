@@ -157,13 +157,14 @@ rsconnect::deployApp(appDir = ".")
 L\'application suit la charte graphique de la Ville de Paris.  
 [Consulter la charte](https://chartes-graphiques.com/chartes/charte-ville-de-paris.pdf)
 
-| Couleur    | Aperçu | Hex       | Usage                        |
-|------------|--------|-----------|------------------------------|
-| Bleu nuit  | <span style="display:inline-block;width:20px;height:20px;background-color:#071F32;"></span> | `#071F32` | Fond header, sidebar, titres |
-| Turquoise  | <span style="display:inline-block;width:20px;height:20px;background-color:#25DCCC;"></span> | `#25DCCC` | Accents, liens, bordures     |
-| Jaune      | <span style="display:inline-block;width:20px;height:20px;background-color:#FFCD00;"></span> | `#FFCD00` | Graphiques                   |
-| Rouge      | <span style="display:inline-block;width:20px;height:20px;background-color:#FB394A;"></span> | `#FB394A` | Graphiques                   |
-| Gris clair | <span style="display:inline-block;width:20px;height:20px;background-color:#F0F0F0;border:1px solid #ccc;"></span> | `#F0F0F0` | Fonds secondaires            |
+| Couleur    | Hex | Usage                        |
+|------------|-----|------------------------------|
+| Bleu nuit  | <span style="background-color:#071F32;color:white;padding:4px 8px;border-radius:4px;">#071F32</span> | Fond header, sidebar, titres |
+| Turquoise  | <span style="background-color:#25DCCC;color:black;padding:4px 8px;border-radius:4px;">#25DCCC</span> | Accents, liens, bordures     |
+| Jaune      | <span style="background-color:#FFCD00;color:black;padding:4px 8px;border-radius:4px;">#FFCD00</span> | Graphiques                   |
+| Rouge      | <span style="background-color:#FB394A;color:white;padding:4px 8px;border-radius:4px;">#FB394A</span> | Graphiques                   |
+| Gris clair | <span style="background-color:#F0F0F0;color:black;padding:4px 8px;border-radius:4px;border:1px solid #ccc;">#F0F0F0</span> | Fonds secondaires |
+
 
 Police : **Montserrat** (Google Fonts)
 
