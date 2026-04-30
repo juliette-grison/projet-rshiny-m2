@@ -157,14 +157,13 @@ rsconnect::deployApp(appDir = ".")
 L\'application suit la charte graphique de la Ville de Paris.  
 [Consulter la charte](https://chartes-graphiques.com/chartes/charte-ville-de-paris.pdf)
 
-| Couleur    | Hex | Usage                        |
-|------------|-----|------------------------------|
-| Bleu nuit  | <span style="background-color:#071F32;color:white;padding:4px 8px;border-radius:4px;">#071F32</span> | Fond header, sidebar, titres |
-| Turquoise  | <span style="background-color:#25DCCC;color:black;padding:4px 8px;border-radius:4px;">#25DCCC</span> | Accents, liens, bordures     |
-| Jaune      | <span style="background-color:#FFCD00;color:black;padding:4px 8px;border-radius:4px;">#FFCD00</span> | Graphiques                   |
-| Rouge      | <span style="background-color:#FB394A;color:white;padding:4px 8px;border-radius:4px;">#FB394A</span> | Graphiques                   |
-| Gris clair | <span style="background-color:#F0F0F0;color:black;padding:4px 8px;border-radius:4px;border:1px solid #ccc;">#F0F0F0</span> | Fonds secondaires |
-
+| Couleur        | Hex       | Usage                        |
+|----------------|-----------|------------------------------|
+| Bleu nuit      | `#071F32` | Fond header, sidebar, titres |
+| Turquoise      | `#25DCCC` | Accents, liens, bordures     |
+| Jaune          | `#FFCD00` | Graphiques                   |
+| Rouge          | `#FB394A` | Graphiques                   |
+| Gris clair     | `#F0F0F0` | Fonds secondaires            |
 
 Police : **Montserrat** (Google Fonts)
 
