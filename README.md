@@ -1,4 +1,4 @@
-'# Accessibilité des Hébergements en Île-de-France — Paris je t\'aime
+# Accessibilité des Hébergements en Île-de-France — Paris je t\'aime
 
 Application Shiny interactive présentant l\'accessibilité des hébergements touristiques
 de la Métropole du Grand Paris ayant participé au programme d\'accompagnement dédié de
@@ -32,15 +32,17 @@ l\'application (pagination automatique, ~536 établissements).
 
 ## Structure du projet
 
+\`\`\`text
 projet_rshiny_m2/
 ├── app.R          # Chargement des librairies, appel API, nettoyage des données
 ├── server.R       # Logique serveur (graphiques, carte, tableau, filtres)
 ├── ui.R           # Interface utilisateur (mise en page, onglets, widgets)
 ├── www/
-│   └── styles.css             # Feuille de style personnalisée
-│   └── nantes_universite.png  # Logo Nantes Université
+│   ├── styles.css             # Feuille de style personnalisée
+│   ├── nantes_universite.png  # Logo Nantes Université
 │   └── ville_de_paris.jpg     # Logo Ville de Paris
 └── README.md
+\`\`\`
 
 ---
 
@@ -59,31 +61,15 @@ install.packages(c(
   "shiny",
   "dplyr",
   "tidyr",
-  "shinythemes",
-  "DT",
   "leaflet",
-  "colourpicker",
-  "shinyBS",
-  "shinyWidgets",
   "rsconnect",
-  "sf",
   "data.table",
   "shinyjs",
   "httr",
-  "readr",
-  "rmapshaper",
-  "mapsf",
   "ggplot2",
-  "htmltools",
+  "rAmCharts",
   "jsonlite"
 ))
-
-# rAmCharts — depuis GitHub si non disponible sur CRAN
-# install.packages("remotes")
-remotes::install_github("datastorm-open/rAmCharts")
-# Ou depuis CRAN si disponible :
-install.packages("rAmCharts")
-install.packages("pipeR")
 ```
 
 ---
@@ -243,4 +229,3 @@ Données fournies par **Paris je t\'aime – Office de tourisme** et la **Ville 
 
 Les données sont disponibles sous licence ouverte (Open Data).  
 [Licence Ouverte / Open Licence](https://www.etalab.gouv.fr/licence-ouverte-open-licence)
-'
