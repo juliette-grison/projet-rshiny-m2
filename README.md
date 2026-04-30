@@ -92,7 +92,7 @@ Double-cliquez sur le fichier `.Rproj` ou ouvrez RStudio et définissez le répe
 de travail :
 
 ```r
-setwd("chemin/vers/projet_rshiny_m2")
+setwd("chemin/vers/projet-rshiny-m2")
 ```
 
 ### 3. Installer les dépendances
@@ -157,13 +157,13 @@ rsconnect::deployApp(appDir = ".")
 L\'application suit la charte graphique de la Ville de Paris.  
 [Consulter la charte](https://chartes-graphiques.com/chartes/charte-ville-de-paris.pdf)
 
-| Couleur        | Hex       | Usage                        |
-|----------------|-----------|------------------------------|
-| Bleu nuit      | `#071F32` | Fond header, sidebar, titres |
-| Turquoise      | `#25DCCC` | Accents, liens, bordures     |
-| Jaune          | `#FFCD00` | Graphiques                   |
-| Rouge          | `#FB394A` | Graphiques                   |
-| Gris clair     | `#F0F0F0` | Fonds secondaires            |
+| Couleur    | Aperçu | Hex       | Usage                        |
+|------------|--------|-----------|------------------------------|
+| Bleu nuit  | <span style="display:inline-block;width:20px;height:20px;background-color:#071F32;"></span> | `#071F32` | Fond header, sidebar, titres |
+| Turquoise  | <span style="display:inline-block;width:20px;height:20px;background-color:#25DCCC;"></span> | `#25DCCC` | Accents, liens, bordures     |
+| Jaune      | <span style="display:inline-block;width:20px;height:20px;background-color:#FFCD00;"></span> | `#FFCD00` | Graphiques                   |
+| Rouge      | <span style="display:inline-block;width:20px;height:20px;background-color:#FB394A;"></span> | `#FB394A` | Graphiques                   |
+| Gris clair | <span style="display:inline-block;width:20px;height:20px;background-color:#F0F0F0;border:1px solid #ccc;"></span> | `#F0F0F0` | Fonds secondaires            |
 
 Police : **Montserrat** (Google Fonts)
 
@@ -223,7 +223,7 @@ Police : **Montserrat** (Google Fonts)
 
 ## Auteurs
 
-Projet réalisé dans le cadre du **Master 2 — Nantes Université**  
+Projet réalisé par Juliette GRISON dans le cadre d'un **Master 2 en Économétrie Appliquée**  
 Données fournies par **Paris je t\'aime – Office de tourisme** et la **Ville de Paris**
 
 ---
