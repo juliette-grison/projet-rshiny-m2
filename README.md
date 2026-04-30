@@ -1,3 +1,6 @@
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Shiny](https://img.shields.io/badge/Shiny-1E90FF?style=for-the-badge)
+
 # Accessibilité des Hébergements en Île-de-France — Paris je t\'aime
 
 Application Shiny interactive présentant l\'accessibilité des hébergements touristiques
