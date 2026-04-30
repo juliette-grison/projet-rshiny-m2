@@ -32,18 +32,6 @@ l\'application (pagination automatique, ~536 établissements).
 
 ## Structure du projet
 
-\`\`\`text
-projet_rshiny_m2/
-├── app.R          # Chargement des librairies, appel API, nettoyage des données
-├── server.R       # Logique serveur (graphiques, carte, tableau, filtres)
-├── ui.R           # Interface utilisateur (mise en page, onglets, widgets)
-├── www/
-│   ├── styles.css             # Feuille de style personnalisée
-│   ├── nantes_universite.png  # Logo Nantes Université
-│   └── ville_de_paris.jpg     # Logo Ville de Paris
-└── README.md
-\`\`\`
-
 ```text
 projet_rshiny_m2/
 ├── app.R          # Chargement des librairies, appel API, nettoyage des données
