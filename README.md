@@ -79,8 +79,8 @@ install.packages(c(
 ### 1. Cloner le dépôt
 
 ```bash
-git clone https://github.com/<votre-utilisateur>/<votre-repo>.git
-cd <votre-repo>
+git clone https://github.com/juliette-grison/projet-rshiny-m2.git
+cd projet-rshiny-m2
 ```
 
 ### 2. Ouvrir le projet dans RStudio
